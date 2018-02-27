@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <title>LabVirtual - ILEEL</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+      <a class="navbar-brand" href="index.html">LabVirtual - ILEEL</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSite">
+
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="instructions.html">Instruções</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownSite" data-toggle="dropdown">Aulas</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Aula 01</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Aula 02</a>
+              <a class="dropdown-item" href="#">Aula 03</a>
+              <a class="dropdown-item" href="#">Aula 04</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contatos</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="card bg-lightVideo text-light mt-4 mb-4" id="videoRecording">
+      <div class="card-body text-center" style="color:#2D1E2F">
+        <h4 class="card-title">Aula X</h4>
+        <p class="card-text">O texto que você precisará ler, estará nesta posição!</p>
+        <div class="carousel">
+          <div class="item">
+            <img src="a343A40.jpg" alt="...">
+            <div class="carousel-caption">
+
+              <h4>
+                <br/>Imagem da WebCAM
+                <br/>aparece aqui</h4>
+              <h1>...</h1>
+            </div>
+          </div>
+        </div>
+        <!-- <video id="gum" autoplay muted width="50%" height="50%"></video> -->
+
+        <div id="buttons" class="mt-2">
+
+          <button id="record" disabled type="button" class="btn btn-dark">Start</button>
+          <button id="play" disabled type="button" class="btn btn-dark">Play</button>
+          <button id="download" disabled type="button" class="btn btn-dark">Download</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="card bg-secondary text-light mt-4 mb-4" style="display:none" id="videoRecorded">
+
+      <h4 class="card-title">Video Recorded</h4>
+
+      <video id="recorded" loop controls controlsList="nodownload"></video>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col col-md-4 mb-4">
+
+        <div class="card bg-success rounded-0">
+          <div class="card-body text-center">
+            <h4 class="card-title">Primeiro Passo:</h4>
+            <p class="card-text">Clique no botão "Start" <br/> e a gravação se iniciará</p>
+            <!-- <p class="card-text">:)</p> -->
+            <!-- <a href="#" class="card-link">Um Link</a> -->
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col col-md-4 mb-4">
+
+        <div class="card bg-success rounded-0">
+          <div class="card-body text-center">
+            <h4 class="card-title">Segundo Passo:</h4>
+            <p class="card-text">Para finalizar a gravação<br/> clique no botão "Stop"</p>
+            <!-- <a href="#" class="card-link">Um Link</a> -->
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col col-md-4 mb-4">
+
+        <div class="card bg-success rounded-0">
+          <div class="card-body text-center">
+            <h4 class="card-title">Terceiro Passo:</h4>
+            <p class="card-text">Para ver como ficou o vídeo<br/> clique no botão "Play"</p>
+            <!-- <a href="#" class="card-link">Um Link</a> -->
+          </div>
+        </div>
+
+      </div>    
+
+    <div class="jumbotron col rounded-0">
+
+      <h1 class="display-3">Vamos Começar!</h1>
+      <p class="lead">Clique abaixo para começarmos as gravações!</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="record.html">Vamos Lá!</a>
+      </p>
+
+    </div>
+
+  </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <!-- <script src="/js/main.js"></script> -->
+</body>
+
+</html>
