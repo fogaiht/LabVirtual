@@ -19,18 +19,13 @@
   <div class="container">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-
       <a class="navbar-brand" href="index.html">LabVirtual - ILEEL</a>
-
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-
       <div class="collapse navbar-collapse" id="navbarSite">
-
         <ul class="navbar-nav ml-auto">
-
           <li class="nav-item">
             <a class="nav-link" href="#">Início</a>
           </li>
@@ -41,6 +36,7 @@
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdownSite" data-toggle="dropdown">Aulas</a>
+
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Aula 1</a>
               <a class="dropdown-item" href="#">Aula 2</a>
@@ -48,6 +44,7 @@
               <a class="dropdown-item" href="#">Aula 4</a>
               <a class="dropdown-item" href="#">Colocar as outras aulas aqui</a>
             </div>
+
           </li>
 
           <li class="nav-item">
@@ -60,50 +57,24 @@
 
     </nav>
 
-
-    <div class="container">
-      <div class="row">
-        <div class="card col-sm bg-lightVideo text-light mt-4 mb-4" id="videoRecording">
-          <div class="card-body text-center" style="color:#2D1E2F">
-            <h4 class="card-title">Aula 1</h4>
-            <p class="card-text">Texto para Leitura.</p>
-
-            <video id="gum" autoplay muted width="50%" height="50%"></video>
-
-            <div id="buttons" class="mt-2">
-
-              <button id="record" disabled type="button" class="btn btn-dark">Start</button>
-              <button id="play" disabled type="button" class="btn btn-dark">Play</button>
-              <button id="download" disabled type="button" class="btn btn-dark">Download</button>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="card col-sm mr-4 bg-secondary text-light mb-4" style="display:none" id="videoRecorded">
-          <div class="card-body text-center" style="color:white">
-            <h4 class="card-title">Video Recorded</h4>
-            <video class="mt-4 mb-4" id="recorded" controls controlsList="nodownload" width="85%" height="85%" />
-          </div>
-
-        </div>
-
-        <div class="jumbotron col-sm mb-4" id="jumbo" style="display:none">
-
-          <h1 class="display-4">Não se esqueça!</h1>
-          <p class="lead">Veja seu vídeo pronto ao lado e, se tudo estiver correto, faça o download e nos envie. Caso contrário, tente novamente!</p>
-          <p class="lead">
-            <button id="download2" type="button" class="btn btn-primary btn-lg">Download</button>
-            <a class="btn btn-primary btn-lg" href="record.html">Try Again</a>
-          </p>
-
-        </div>
-
-      </div>
+    <div class="col-sm-12 mt-4 mb-4 card-body text-center bg-white">
+      <h1 class="card-title">Thiago Fernandes</br>Graduando em Engenharia de Computação</h1>
+      <p class="mt-4 card-text text-justify">&emsp;&emsp;&emsp;&emsp;Este site foi desenvolvido pelo aluno Thiago Fernandes, graduando em Engenharia de Computação,
+        com o objetivo de realizar a gravação de vídeos das pessoas que se voluntariaram ao projeto reproduzindo algumas
+        palavras, fonemas, dentre outros recursos linguísticos, todos da língua inglesa. Com isso, estas gravações serão
+        utilizadas para "alimentar" uma inteligência artificial, ensinando a mesma o modo correto que se fala a língua inglesa.</p>
     </div>
+
+    <div class="jumbotron col-sm-12 rounded-0">
+      <h1 class="display-3">E então, por onde começamos?</h1>
+      <hr class="my-4">
+      <p class="lead">Clique para ver as instruções ou para entrar em contato!</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="instructions.html">Instruções</a>
+        <a class="btn btn-primary btn-lg" href="contato.html">Contato</a>
+      </p>
+    </div>
+
   </div>
 
   <!-- Optional JavaScript -->
@@ -111,7 +82,6 @@
   <script src="/js/jquery.min.js"></script>
   <script src="/js/popper.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/main.js"></script>
 </body>
 
 </html>
