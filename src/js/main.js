@@ -23,13 +23,11 @@ var gumVideo = document.querySelector("video#gum");
 var recordedVideo = document.querySelector("video#recorded");
 
 var recordButton = document.querySelector("button#record");
-// var recordButton2 = document.querySelector("button#record2");
 var playButton = document.querySelector("button#play");
 var downloadButton = document.querySelector("button#download");
 var downloadButton2 = document.querySelector("button#download2");
 
 recordButton.onclick = toggleRecording;
-// recordButton2.onclick = toggleRecording;
 playButton.onclick = play;
 downloadButton.onclick = download;
 downloadButton2.onclick = download;
@@ -232,9 +230,9 @@ function play() {
   // var url=recordedVideo.getAttribute('src'); //Usado para abrir em outra aba
   // window.open(url); 
   // recordedVideo.play();  //Iniciar o Vídeo
-  window.scrollTo(0,document.body.scrollHeight);
   Mudarestado("videoRecorded");
   Mudarestado("jumbo");
+  window.scrollTo(0,document.body.scrollHeight);
   LightOff();
 }
 
