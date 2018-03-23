@@ -1,6 +1,6 @@
 <h1> Começando </h1>
 
-<h2>- Instalar pacotes necessários </h2>
+<h2>Instalar pacotes necessários </h2>
 
 <b>1) NodeJS</b>
 
