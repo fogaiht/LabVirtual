@@ -37,9 +37,8 @@ https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md
 
       <i>"git clone https://github.com/fogaiht/LabVirtual-ILEEL"</i>
 8) Após fazer o download dos arquivos, copie a pasta <b>src</b> e o arquivo <b>gulpfile.js</b> para a primeira pasta criada
-9) Acesse novamente esta pasta pelo prompt (windows) ou terminal (linux) e execute o comando
-      <i>gulp</i>
-10) E está pronto a instalação e boa sorte!
+9) Acesse novamente esta pasta pelo prompt (windows) ou terminal (linux) e execute o comando <i>gulp</i> e o site começará a funcionar
+10) Qualquer alteração que faça no código, enquanto o terminal estiver aberto, o site será atualizado automaticamente
 
 <h1> Dicas de Ouro! </h1>
 
