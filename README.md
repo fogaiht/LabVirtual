@@ -8,8 +8,9 @@ https://nodejs.org/en/
 
 <b>2) Gulp</b>
 
-https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md
-
+   2.1- Abra o prompt (windows) ou o terminal (linux)
+  
+   2.2- Execute o comando <i>"npm install --global gulp-cli"</i>
 
 <h1> Criando ambiente de trabalho </h1>
 
