@@ -1,4 +1,4 @@
-<h1> Começando: </h1>
+<h1> Começando </h1>
 
 <h2>- Instalar pacotes necessários </h2>
 
@@ -11,7 +11,7 @@ https://nodejs.org/en/
 https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md
 
 
-<h2>- Criando ambiente de trabalho</h2>
+<h1> Criando ambiente de trabalho </h1>
 
 1) Crie uma pasta para seu projeto
 2) Abra o prompt (windows) ou o terminal (linux)
@@ -35,4 +35,16 @@ https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md
 
 7) Em uma outra pasta, faça download dos arquivos ou execute o comando abaixo
 
-<i>git clone https://github.com/fogaiht/LabVirtual-ILEEL</i>
+      <i>"git clone https://github.com/fogaiht/LabVirtual-ILEEL"</i>
+8) Após fazer o download dos arquivos, copie a pasta <b>src</b> e o arquivo <b>gulpfile.js</b> para a primeira pasta criada
+9) Acesse novamente esta pasta pelo prompt (windows) ou terminal (linux) e execute o comando
+      <i>gulp</i>
+10) E está pronto a instalação e boa sorte!
+
+<h1> Dicas de Ouro! </h1>
+
+1) No Linux é muito mais intuitivo editar o site
+
+2) Utilize o Visual Code para editar os arquivos
+
+3) Dúvidas, só chamar no Skype
